@@ -1,33 +1,50 @@
 <p align="center">
-  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/07/n8n-pipelines-CAD-BIM-Revit-IFC-AutoCAD-scaled.jpg" alt="Pipeline Overview" width="100%"/>
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/CAD%20BIM%20Pipeline%20and%20Workflow.jpg" alt="Pipeline Overview" width="100%"/>
 </p>
-
-
-<h3 align="center">CAD/BIM (Revit, DWG, IFC, DGN) processing and conversion with batch handling, grouping, checks, cost estimation and QTO reports. Visualization of automation processes in open workflows</h3>
-
 <p align="center">
-  Automate your CAD/BIM data extraction and transformation using <a href="https://n8n.io">n8n</a>   </br> with no vendor lock-in, no Autodesk® or CAD licenses, and full control of your project data
-</p>
 
-<p align="center">
-  <a href="https://n8n.io">
-    <img src="https://img.shields.io/badge/powered%20by-n8n-ff6d5a?logo=n8n&logoColor=white" alt="n8n">
-  </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto?color=blue" alt="MIT License">
-  </a>
-  <a href="https://datadrivenconstruction.io">
-    <img src="https://img.shields.io/badge/made%20by-DataDrivenConstruction.io-orange" alt="DataDrivenConstruction">
-  </a>
-  <img src="https://img.shields.io/badge/input-.rvt%20.dwg%20.ifc%20.dgn-blue?logo=autodesk&logoColor=white" alt="Input Formats"></br>
-  <img src="https://img.shields.io/badge/output-.xlsx%20.csv%20.dae%20.html%20.pdf-green?logo=microsoft-excel&logoColor=white" alt="Output Formats">
-  <img src="https://img.shields.io/badge/ETL%20pipeline-Ready%20for%20CI/CD%20&%20Bots-success?logo=githubactions" alt="ETL Pipeline">
+  <img src="https://img.shields.io/github/license/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto?color=blue&label=workflows%20licence" alt="Workflows Licence: MIT">
+</a>
+<a href="https://datadrivenconstruction.io">
+  <img src="https://img.shields.io/badge/powered%20by-DataDrivenConstruction.io-orange" alt="Powered by DataDrivenConstruction.io">
+</a>
+<img src="https://img.shields.io/badge/input-.rvt%20.dwg%20.ifc%20.dgn-blue?logo=autodesk&logoColor=white" alt="Input Formats"></br>
+<img src="https://img.shields.io/badge/output-.xlsx%20.csv%20.dae%20.html%20.pdf%20.ifc-green?logo=microsoft-excel&logoColor=white" alt="Output Formats">
+<img src="https://img.shields.io/badge/ETL%20pipeline-Ready%20for%20CI/CD%20&%20Bots-success?logo=githubactions" alt="ETL Pipeline">
+
+<!-- Pricing -->
+<a href="https://dify.ai/pricing" target="_blank">
+  <img alt="Static Badge" src="https://img.shields.io/badge/free-pricing?logo=free&color=%23155EEF&label=pricing&labelColor=%23528bff">
+</a>
+</br>
+
+
+<h3 align="center">CAD/BIM (Revit, DWG, IFC, DGN) processing and conversion with batch handling, grouping, checks, cost estimation and QTO reports. Visualization of automation processes in open agents and workflows</h3>
+
+<p align="center">
+  Automate your CAD/BIM data extraction and transformation using DDC UI, ComandPromts, Powershell or Workflows with no vendor lock-in, no Autodesk® or CAD licenses, and full control of your project data
 </p>
+
+
+
 
 
 <p align="center">
-  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/08/n8n-GitHub-DataDrivenConstruction.jpg" alt="Pipeline Overview" width="100%"/>
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC_GithubLogo.jpg" alt="Pipeline Overview" width="100%"/>
 </p>
+<p align="center">
+  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/09/bandicam-2025-09-14-13-05-05-897.gif" width="100%"/>
+ <p align="center">
+ DataDrivenConstruction clients and users
+  <br>
+  <a href="https://datadrivenconstruction.io/">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/Clients_DataDrivenConstruction_logos.png" width="80%"/>
+  </a>   
+  <br></br>
+</p>
+
+ 
 
 ## Table of Contents
 
@@ -37,27 +54,73 @@
 - [Key Features](#key-features)
 - [Quick Start](#quick-start)
 - [📁 Workflows](#n8n-workflows-for-working-with-cadbim-data)
-  - [⚡️ 1. CAD (BIM) Basic Conversion](#️-1-basic-conversion)
-  - [⚡️ 2. CAD (BIM) Conversion with Advanced Settings](#️-2-conversion-with-advanced-settings)
-  - [⚡️ 3. Revit Batch Conversion with Validation and Reporting](#️-3-revit-batch-conversion-with-validation-and-reporting)
-  - [⚡️ 4. Multi-Format Validation](#️-4-multi-format-validation)
-  - [⚡️ 5. Universal BIM/CAD Classification with AI & RAG](#️-5-universal-bimcad-classification-with-ai--rag)
-  - [⚡️ 6. Construction Price Estimation Pipeline for Revit and IFC with LLM](#️-5-construction-price-estimation-pipeline-for-revit-and-ifc-with-llm-ai)
-  - [⚡️ 7. Carbon Footprint CO2 Estimator for Revit and IFC with LLM](#️-6-carbon-footprint-co2-estimator-for-revit-and-ifc-with-llm-ai)
-  - [⚡️ 8. Simple ETL for LLM Use Cases](#️-6-simple-etl-for-llm-use-cases)
-  - [⚡️ 9. Revit and IFC to HTML Quantity Takeoff](#️-7-revit-to-html-quantity-takeoff)
+  - [⚡️ 1. Revit, IFC, DWG, DGN Basic Conversion](#️-1-revit-ifc-dwg-dgn-basic-conversion)
+  - [⚡️ 2. Revit Conversion with Advanced Settings](#️-2-revit-conversion-with-advanced-settings)
+  - [⚡️ 3. Revit, IFC, DWG Batch Conversion with Validation and Reporting](#️-3-revit-ifc-dwg-batch-conversion-with-validation-and-reporting)
+  - [⚡️ 4. Multi-Format CAD (BIM) Validation for Revit, IFC, DWG, DGN](#️-4-multi-format-cad-bim-validation-for-revit-ifc-dwg-dgn)
+  - [⚡️ 5. Universal BIM/CAD Classification with AI & RAG for Revit, IFC, DWG, DGN](#️-5-universal-bimcad-classification-with-ai--rag-for-revit-ifc-dwg-dgn)
+  - [⚡️ 6. Construction Price Estimation Pipeline for Revit and IFC with LLM (AI)](#️-6-construction-price-estimation-pipeline-for-revit-and-ifc-with-llm-ai)
+  - [⚡️ 7. Carbon Footprint CO2 Estimator for Revit and IFC with LLM (AI)](#️-7-carbon-footprint-co2-estimator-for-revit-and-ifc-with-llm-ai)
+  - [⚡️ 8. Simple ETL for LLM Use Cases for Revit, IFC, DWG, DGN](#️-8-simple-etl-for-llm-use-cases-for-revit-ifc-dwg-dgn)
+  - [⚡️ 9. Revit and IFC to HTML Quantity Takeoff](#️-9-revit-and-ifc-to-html-quantity-takeoff)
 - [Troubleshooting](#troubleshooting)
 - [What is DataFrames?](#what-is-dataframes)
-- [Re-import Data into Revit](#️re-import-data-into-revit)
+- [Excel to Revit. Update Project from Excel](#excel-to-revit-update-project-from-excel)
 - [Contributing](#contributing)
 - [🆘 Support](#support)
 - [🎓 Consulting and Training](#consulting-and-training)
 
 
 
+
 ## Tutorial Videos
 
 <table style="border: none; border-collapse: collapse;">
+  <!-- New videos at the top -->
+  <tr>
+    <td style="border: none; padding-right: 12px; vertical-align: top;">
+      <a href="https://www.youtube.com/watch?v=fHkXDMLzWzQ" target="_blank">
+        <img src="DDC_in_additon/DDC_readme_content/DDC_Converter.png" alt="DDC Converter" width="460" height="315">
+      </a>
+    </td>
+    <td style="border: none; vertical-align: top;">
+     <b> Universal CAD/BIM Converter Overview </b>
+      <br>
+        Introduction to the <strong>DDC Converter</strong> for Revit, IFC, DWG, and DGN pipelines – conversion, validation, and automation use cases.<br>
+        <a href="https://www.youtube.com/watch?v=fHkXDMLzWzQ" target="_blank">Watch Converter Overview on YouTube</a>
+      </br>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; padding-right: 12px; vertical-align: top;">
+      <a href="https://www.youtube.com/watch?v=jVU7vlMNTO0" target="_blank">
+        <img src="DDC_in_additon/DDC_readme_content/DWG to Excel.png" alt="DWG to Excel Pipeline" width="460" height="315">
+      </a>
+    </td>
+    <td style="border: none; vertical-align: top;">
+     <b> DWG to Excel Converter Pipeline </b>
+      <br>
+        Step-by-step guide on automating <strong>DWG to Excel</strong> data conversion using <code>n8n</code>, making CAD project data easy to use in reporting and analysis.<br>
+        <a href="https://www.youtube.com/watch?v=jVU7vlMNTO0" target="_blank">Watch DWG to Excel Pipeline on YouTube</a>
+      </br>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; padding-right: 12px; vertical-align: top;">
+      <a href="https://youtu.be/QBaH8oBsPpM?si=gno6LZf98d6gWdPl" target="_blank">
+        <img src="DDC_in_additon/DDC_readme_content/ETL with Revit and IFC.png" alt="ETL with Revit and IFC" width="460" height="315">
+      </a>
+    </td>
+    <td style="border: none; vertical-align: top;">
+     <b> ETL with Revit and IFC </b>
+      <br>
+        Learn how to build a complete <strong>ETL pipeline</strong> with Revit and IFC data: extract, transform, validate, and load project information into open formats.<br>
+        <a href="https://youtu.be/QBaH8oBsPpM?si=gno6LZf98d6gWdPl" target="_blank">Watch ETL with Revit and IFC Tutorial on YouTube</a>
+      </br>
+    </td>
+  </tr>
+
+  <!-- Existing videos -->
   <tr>
     <td style="border: none; padding-right: 12px; vertical-align: top;">
       <a href="https://youtu.be/HUbEPo-yfeA?si=Gjbj2glKgU3q-XZC" target="_blank">
@@ -95,7 +158,7 @@
     <td style="border: none; vertical-align: top;">
      <b> ⚡️Automated CAD/BIM Data Validation with n8n | The End of Manual BIM Checks </b>
       <br>
-        Discover how to fully automate <strong>CAD/BIM data validation</strong> workflows using the free, open-source <code>n8n</code> platform.Ideal for project teams looking to save hours (or days) every week.<br>
+        Discover how to fully automate <strong>CAD/BIM data validation</strong> workflows using the free, open-source <code>n8n</code> platform. Ideal for project teams looking to save hours (or days) every week.<br>
         <a href="https://www.youtube.com/watch?v=p84AmP2dcvg" target="_blank">Watch Automated Validation Tutorial on YouTube</a>
       </br>
     </td>
@@ -111,13 +174,15 @@
 
 This pipeline automates the conversion of CAD/BIM files to Excel for quantity takeoffs, data analysis, and further processing. It supports offline operation and extensibility with Python or AI tools.
 
+
 ## Supported Formats
 
 | Format | File Extension | Converter | Output |
 |--------|----------------|-----------|--------|
-| Revit (2015-2025) | `.rvt` | RvtExporter.exe | XLSX database + DAE geometry + Schedules + PDF Drawings |
+| Revit (2015-2026) | `.rvt` | RvtExporter.exe | XLSX database + DAE geometry + Schedules + PDF Drawings |
+| Revit (2015-2026) | `.rvt` | RVT2IFC_converter.exe | IFC2x3, IFC4, IFC4.3, IFCXML, IFCZIP, HDF5 |
 | IFC (2x3, 4x1, 4x4, 4x, 4.3) | `.ifc` | IfcExporter.exe | XLSX database + DAE geometry |
-| AutoCAD (1983-2025) | `.dwg` | DwgExporter.exe | XLSX database + PDF Drawings |
+| AutoCAD (1983-2026) | `.dwg` | DwgExporter.exe | XLSX database + PDF Drawings |
 | MicroStation (v7-v8) | `.dgn` | DgnExporter.exe | XLSX database |
 
 ## Key Features
@@ -127,7 +192,68 @@ This pipeline automates the conversion of CAD/BIM files to Excel for quantity ta
 - Offline processing without internet, APIs, or licenses.
 - Extensible for custom post-processing.
 
-## Quick Start
+## Running the Converters
+
+The DDC converters can be launched in different ways — **n8n is just one of the shells** for automation.  
+Depending on your workflow and technical background, you can choose between four methods:
+
+1. **Graphical User Interface (UI)** 
+   - Best for non-technical users and quick one-off conversions.  
+   - Intuitive interface, no setup required — just select a folder and start.
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/UI%20Converter%20DDC.jpg" width="100%"/>
+  <br></br>
+</p>
+
+2. **Console / Terminal (CMD, PowerShell, Shell)** 
+   - Suitable for advanced users, developers, and technical teams.  
+   - Flexible and scriptable, can be integrated into automation scripts or batch processes.  
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/Terminal%20Version%20CMD%20DDC.jpg" width="100%"/>
+  <br></br>
+</p>
+
+3. **Python or JavaScript Pipelines** 
+   - Ideal for enterprises and teams working with large datasets.  
+   - Scalable processing of hundreds of CAD (BIM) files in parallel.  
+   - Ready-to-use examples available in the `DDC_Python_pipelines` folder.  
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/Code%20DDC.jpg" width="100%"/>
+  <br></br>
+</p>
+
+4. **n8n Workflows** 
+   - Best for companies seeking **full automation and system integration**.  
+   - End-to-end pipelines where CAD (BIM) conversion becomes part of a seamless data flow.  
+   - Examples provided in the `DDC_n8n_workflows` folder.
+  <p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/n8n%20pipeline%20DDC.jpg" width="100%"/>
+  <br></br>
+</p>
+
+⭐ <b>If you find our tools useful and would like to see more similar applications for the construction industry, please give our repositories a star.</b>
+Star DDC workflow on GitHub and be instantly notified of new releases.
+<p align="center">
+  <br>
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/GitHub%20Star%20DDC.gif" width="100%"/>
+  <br></br>
+</p>
+
+
+### ✅ Important prerequisite (v17 and later)
+
+Starting with **v17**, the converters use an updated runtime baseline.  
+Please install **Microsoft Visual C++ Redistributable 2015–2022 (x64)** before running any `.exe` tools (`RvtExporter.exe`, `RVT2IFCconverter.exe`, etc.).
+
+- Official download (Microsoft Learn): **Latest supported VC++ 2015–2022**.  
+- Choose the **x64** package and run `VC_redist.x64.exe`.
+
+> Without this package some systems (especially fresh Windows installs/VMs) will fail to start the converters.
+
+**Why you need this:** v17 switched the technical baseline from v16; the VC++ runtime is a required dependency now.
+
+
+## Quick Start with n8n
 
 ### Prerequisites
 
@@ -147,9 +273,22 @@ This pipeline automates the conversion of CAD/BIM files to Excel for quantity ta
   <br></br>
 </p>
 
-# n8n Workflows for working with CAD/BIM data
 
-### ⚡️ 1. Basic Conversion
+
+
+
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC_Github_Apps.jpg" alt="Pipeline Overview" width="100%"/>
+</p>
+
+</p>
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC_n8n_CAD_BIM.gif" alt="Pipeline Overview" width="100%"/>
+   <br></br>
+</p>
+
+
+### ⚡️ 1. Revit, IFC, DWG, DGN Basic Conversion 
 **File**: `n8n_1_Revit_IFC_DWG_Conversation_simple.json`
 
 Converts CAD/BIM files (`.rvt`, `.ifc`, `.dwg`, `.dgn`) to Excel (XLSX) and Collada (DAE) for Revit/IFC files. Minimal configuration for quick setup.
@@ -166,6 +305,10 @@ Converts CAD/BIM files (`.rvt`, `.ifc`, `.dwg`, `.dgn`) to Excel (XLSX) and Coll
    path_to_converter: C:\Converters\datadrivenlibs\RvtExporter.exe
    path_project_file: C:\Projects\Model.rvt
 
+   # Revit to IFC
+   path_to_converter: C:\Converters\datadrivenlibs\RVT2IFCconverter.exe
+   path_project_file: C:\Projects\Model.rvt
+   
    # IFC
    path_to_converter: C:\Converters\datadrivenlibs\IfcExporter.exe
    path_project_file: C:\Projects\Model.ifc
@@ -194,7 +337,7 @@ graph LR;
 
 
 
-### ⚡️ 2. Conversion with Advanced Settings
+### ⚡️ 2. Revit Conversion with Advanced Settings
 **File**: `n8n_2_All_Settings_Revit_IFC_DWG_Conversation_simple.json`
 
 Converts CAD/BIM files with customizable export modes (basic: 309 categories, standard: 724 categories, complete: all 1209 categories) and optional outputs like bounding box, Revit schedules, or PDF drawings.
@@ -234,8 +377,8 @@ graph LR;
 
 
 
-### ⚡️ 3. Revit Batch Conversion with Validation and Reporting
-**File**: `grok_BP_26072025_14.json`
+### ⚡️ 3. Revit, IFC, DWG Batch Conversion with Validation and Reporting
+**File**: `n8n_3_CAD-BIM-Batch-Converter-Pipeline.json`
 
 Automates batch conversion of Revit (`.rvt`) files to Excel (XLSX) and Collada (DAE), validates outputs, tracks processing times, and generates an HTML report with metrics, file links, and configuration details.
 
@@ -276,7 +419,7 @@ graph LR;
 
 
 
-### ⚡️ 4. Multi-Format CAD (BIM) Validation
+### ⚡️ 4. Multi-Format CAD (BIM) Validation for Revit, IFC, DWG, DGN
 **Files**: `n8n_4_Validation_CAD_BIM_Revit_IFC_DWG.json`, `DDC_BIM_Requirements_Table_for_Revit_IFC_DWG.xlsx`
 
 Validates CAD/BIM data against predefined rules, generating color-coded Excel reports with data quality metrics.
@@ -315,8 +458,11 @@ graph LR;
     I --> J[Save & Open];
 ```
 
-### ⚡️ 5. Universal BIM/CAD Classification with AI & RAG
+### ⚡️ 5. Universal BIM/CAD Classification with AI & RAG for Revit, IFC, DWG, DGN
 **File**: `n8n_5_CAD_BIM_Automatic_Classification_with_LLM_and_RAG.json`
+
+🔗 **Enhanced with DDC CWICR Database**: [OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR)  
+This workflow leverages the DDC CWICR vector database (Qdrant) containing **55,719 work items** with pre-computed OpenAI embeddings (3072d). The RAG pipeline performs semantic search across 9 languages, matching BIM elements to standardized construction work descriptions. The database covers the full spectrum of construction activities — from earthworks and concrete to specialized MEP installations — enabling accurate classification against any standard (Omniclass, Uniclass, MasterFormat, or custom systems).
 
 Intelligently classifies building elements from CAD/BIM files using AI and ANY classification system - international standards (Omniclass, Uniclass, etc.) or your custom/proprietary classifications. Supports automatic dictionary extraction from mapping files.
 
@@ -384,6 +530,9 @@ graph LR;
 ### ⚡️ 6. Construction Price Estimation Pipeline for Revit and IFC with LLM (AI)
 **File:** `n8n_6_Construction_Price_Estimation_Pipeline.json`
 
+🔗 **Powered by DDC CWICR Database**: [OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR)  
+This pipeline connects to the DDC CWICR cost database containing **27,672 resources** with detailed price breakdowns across 10+ regional markets. The resource-based methodology separates physical norms (labor hours, material quantities, equipment time) from volatile prices, ensuring transparent and auditable estimates. Each work item includes 85 data fields: labor costs, material costs, machinery rates, and regional price variants — all searchable via semantic queries in natural language.
+
 Automates cost estimation for building elements from CAD/BIM files. Uses AI to classify materials, search market prices, and generate comprehensive cost reports.
 
 #### Key Features
@@ -425,6 +574,9 @@ graph LR;
 ### ⚡️ 7. Carbon Footprint CO2 Estimator for Revit and IFC with LLM (AI)
 
 **File:** `n8n_7_Carbon_Footprint_CO2_Estimator_for_Revit_and_IFC.json`
+
+🔗 **Integrated with DDC CWICR Database**: [OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR)  
+This workflow utilizes DDC CWICR's detailed material classifications and resource decomposition to calculate embodied carbon (A1-A3 lifecycle stages). The database provides precise material quantities per work item — concrete volumes, steel tonnages, insulation areas — which are then matched with CO₂e emission factors. With data covering 9 languages and multiple regional standards (EU/DE/US), the pipeline delivers accurate sustainability assessments for international projects.
 
 Calculates embodied carbon emissions for building projects. Analyzes materials, applies emission factors, and generates professional sustainability reports.
 
@@ -469,7 +621,7 @@ graph LR;
 
 
 
-### ⚡️ 8. Simple ETL for LLM Use Cases
+### ⚡️ 8. Simple ETL for LLM Use Cases for Revit, IFC, DWG, DGN
 **File**: `n8n_8_Revit_IFC_DWG_Conversation_EXTRACT_Phase_with_Parse_XLSX.json`
 
 Converts a Revit file to Excel, generates an XLSX filename, and parses data for LLM-based automation tasks.
@@ -496,7 +648,7 @@ Converts a Revit file to Excel, generates an XLSX filename, and parses data for 
 
 
 
-### ⚡️ 9. Revit to HTML Quantity Takeoff
+### ⚡️ 9. Revit and IFC to HTML Quantity Takeoff
 **File**: `n8n_9_CAD_BIM_Quantity_TakeOff_HTML_Report_Generatorn.json`
 
 Analyzes Revit wall data, calculates volumes by type, and generates interactive HTML reports with summary statistics.
@@ -546,11 +698,29 @@ In n8n versions 1.98.0–1.101.x, the `os` module is blocked, affecting librarie
 
 ## What is DataFrames?
 
-CAD/BIM formats like `.rvt`, `.ifc`, `.dwg`, or `.dgn` are complex and proprietary. Converting them into **DataFrames**—tabular structures with rows (elements) and columns (properties)—enables efficient data processing. Popularized by Python’s pandas library, DataFrames are widely used for their compatibility with automation, analytics, and AI tools. They simplify tasks like filtering, grouping, and visualization, making them ideal for dashboards, quantity takeoffs, and validation.
+CAD/BIM formats like `.rvt`, `.ifc`, `.dwg`, or `.dgn` are complex and proprietary. Converting them into **DataFrames**—tabular structures with rows (elements) and columns (properties)—enables efficient data processing. Popularized by Python’s pandas library, DataFrames are widely used for their compatibility with automation, analytics, and AI tools (only one of Python's libraries, pandas, is downloaded 12 million times a day). They simplify tasks like filtering, grouping, and visualization, making them ideal for dashboards, quantity takeoffs, and validation.
 
 <p align="center">
   <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/n8n-pipeline-11.jpg" alt="DataFrame Example" width="100%"/>
 </p>
+
+
+Back to the Roots of “BIM”. 𝗧𝗵𝗲 𝗟𝗼𝘀𝘁 𝗜𝗱𝗲𝗻𝘁𝗶𝘁𝘆: 𝗳𝗿𝗼𝗺 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝘁𝗼 𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗕𝘂𝘇𝘇𝘄𝗼𝗿𝗱.
+At the beginning, BIM was never about buzzwords or endless interoperability debates. Its foundation was always databases.
+
+🔹 1974. Charles Eastman introduced the Building Description System (BDS). In his paper, the word database appeared 43 times.
+🔹 2000. ADSK published a whitepaper stressing the value of direct access to the “CAD database.” Neutral translators like STEP/IFC were considered secondary.
+💬 “Native data exchange capability – applications should access the main CAD database directly, so detail and accuracy are not lost.”
+🔹 2002. After acquiring Revit-BOM, ADSK’s BIM whitepaper again placed the database at the core (23 mentions of the term).
+🔹 2003. For the last time, ADSK officially tied BIM to IT and databases. After that, the database vanished from the narrative — replaced by pure marketing.
+
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/CAD%20database.jpg" width="100%"/>
+</p>
+
+In reality, BIM has always been simple: a database of project elements, each with its own parameters. Everything else is marketing layers.
+Maybe it’s time to go back to the essence: open, structured, and accessible data.
+
 
 **Learn More:**
 - [Python Pandas – An Indispensable Tool](https://datadrivenconstruction.io/2025/06/048-python-pandas-an-indispensable-tool-for-working-with-data/)
@@ -558,14 +728,47 @@ CAD/BIM formats like `.rvt`, `.ifc`, `.dwg`, or `.dgn` are complex and proprieta
 - [Structured Data in Construction](https://datadrivenconstruction.io/2025/06/025-structured-data/)
 
 
-## Re-import Data into Revit
+## Excel to Revit Update Project from Excel
 
-After transforming and enriching your Excel data, you can effortlessly push the modified data back into your Revit project. Our dedicated tool **[ImportExcelToRevit](https://github.com/datadrivenconstruction/ImportExcelToRevit)** makes this process seamless by directly importing updated Excel sheets into Revit parameters and families.
+After transforming and enriching your Excel data, you can effortlessly push the modified data back into your Revit project. Our dedicated tool **[ImportExcelToRevit](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/tree/main/DDC_Update_Revit_from_Excel)** makes this process seamless by directly importing updated Excel sheets into Revit parameters and families.
 
 > **Simplify your BIM workflow:** Revit ➡️ Excel ➡️ Transform ➡️ Excel ➡️ Revit.
-https://github.com/datadrivenconstruction/ImportExcelToRevit
+https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/tree/main/DDC_Update_Revit_from_Excel
 
 ![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/07/project-data-3.gif)
+
+
+
+## 🗃️ DDC CWICR - Construction Cost Database
+
+For the highest-quality construction cost estimation, this repository integrates with the **[OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR)** — an open multilingual construction cost database.
+
+### Why DDC CWICR?
+
+DDC CWICR (Construction Work Items, Components & Resources) provides the foundation for accurate, transparent, and auditable cost estimation:
+
+- **55,719 Work Items** — comprehensive coverage of construction activities
+- **27,672 Resources** — materials, labor, and equipment with detailed breakdowns
+- **9 Languages** — Arabic, Chinese, German, English, Spanish, French, Hindi, Portuguese, Russian
+- **85 Data Fields** — full resource-based cost structure per work item
+- **Semantic Search** — Qdrant vector database with OpenAI embeddings (3072d) for natural language queries
+
+### Database Advantages
+
+| Feature | Benefit |
+|---------|---------|
+| **Resource-Based Methodology** | Physical norms (labor hours, material quantities) separated from volatile prices |
+| **Full Transparency** | Complete breakdown of every cost component — no hidden markups |
+| **Multi-Format Export** | Excel, Parquet, CSV, Qdrant snapshots for any integration scenario |
+| **AI-Ready** | Pre-computed embeddings enable RAG pipelines and LLM-powered estimation |
+
+### Live Demo & Resources
+
+🌐 **Live Demo**: [openconstructionestimate.com](https://openconstructionestimate.com) — explore the database and semantic search in action
+
+📦 **Repository**: [github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR)
+
+The workflows in this repository (especially **Workflow 5, 6, and 7**) leverage DDC CWICR for classification, pricing, and carbon footprint calculations, ensuring professional-grade estimation quality.
 
 
 
@@ -596,6 +799,18 @@ Our team delivers hands-on workshops, provides strategic consulting, and develop
 Contact us for a free consultation where we'll discuss your challenges and demonstrate how n8n automation can transform your operations. Reach out via Email at [@DataDrivenConstruction](mailto: info@datadrivenconstruction.io) or visit our website at [datadrivenconstruction.io](https://datadrivenconstruction.io) to learn more about our services.
 
 ---
+ <!-- Social Links -->
+  <a href="https://x.com/datadrivenconst" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/datadrivenconst?logo=X&style=flat&color=%23f5f5f5" alt="Follow on X">
+  </a>
+  <a href="https://www.youtube.com/@datadrivenconstruction" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white" alt="Subscribe on YouTube">
+  </a>
+  <a href="https://www.linkedin.com/company/78381569" target="_blank">
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" alt="Connect on LinkedIn">
+  </a>
+</p>
+
 
 <p align="left">
  
